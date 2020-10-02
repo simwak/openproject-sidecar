@@ -12,10 +12,3 @@ It needs the following environment variables:
 
 With `OPENPROJECT_DEACTIVATE_ADMIN` = `True` or `true` you can deactivate the default admin user.  
 `OPENPROJECT_DEPLOYMENT` need to be the deployment name of the OpenProject deployment.
-
-## Update the image
-``` bash
-VERSION=X.X.X
-docker build -t simwak/openproject-sidecar:$VERSION .
-docker push simwak/openproject-sidecar:$VERSION
-```
